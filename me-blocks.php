@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       ME Blocks
- * Plugin URI: 				https://github.com/smededwards/me-blocks
+ * Plugin URI:        https://github.com/smededwards/me-blocks
  * Author:            Michael Edwards
  * Author URI:        https://smededwards.com
  * Description:       Example block written with ESNext standard and JSX support – build step required.
