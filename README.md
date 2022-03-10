@@ -23,4 +23,5 @@ Activate plugin in the WordPress dashboard
 
 ## Blocks Available
 
-1. Inner Blocks Example
+1. Card with Image
+2. Inner Blocks Example

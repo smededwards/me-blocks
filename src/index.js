@@ -3,4 +3,5 @@
  */
 
 import './block/';
+import './card-image/';
 import './inner-blocks/';
