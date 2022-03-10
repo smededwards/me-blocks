@@ -23,4 +23,4 @@ Activate plugin in the WordPress dashboard
 
 ## Blocks Available
 
-1. Block 1
+1. Inner Blocks Example

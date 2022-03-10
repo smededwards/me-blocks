@@ -3,3 +3,4 @@
  */
 
 import './block/';
+import './inner-blocks/';
