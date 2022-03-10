@@ -123,13 +123,9 @@ registerBlockType('me-blocks/card-image', {
 
 		return (
 			<div className="card__container">
-				<div>
-					{cardImage(attributes.imageUrl, attributes.imageAlt)}
-				</div>
+				<div>{cardImage(attributes.imageUrl, attributes.imageAlt)}</div>
 				<div className="card__content">
-					<h3 className="card__title">
-						{attributes.title}
-					</h3>
+					<h3 className="card__title">{attributes.title}</h3>
 					<div className="card__body">{attributes.body}</div>
 				</div>
 			</div>
