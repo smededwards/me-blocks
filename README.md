@@ -19,7 +19,7 @@ npm install
 npm run build
 ```
 
-Activate plugin in the WordPress dashboard
+- Activate plugin in the WordPress dashboard
 
 ## Blocks Available
 

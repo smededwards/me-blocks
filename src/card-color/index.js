@@ -144,8 +144,8 @@ registerBlockType('me-blocks/card-color', {
 						value={attributes.title}
 					/>
 				</div>
-				<div className="card__body" style={cardBodyStyle}>
-					<div className="card__body__inner">
+				<div className="card--body" style={cardBodyStyle}>
+					<div className="card--body__inner">
 						<InnerBlocks.Content />
 					</div>
 				</div>
