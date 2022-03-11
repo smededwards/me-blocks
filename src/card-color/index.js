@@ -14,7 +14,6 @@ registerBlockType('me-blocks/card-color', {
 	category: 'common',
 	description: __('Color Card Block. Allowing for custom colors to be used'),
 	keywords: [__('Card'), __('Color')],
-
 	attributes: {
 		heading: {
 			source: 'html',
