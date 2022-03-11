@@ -4,6 +4,8 @@
 
 Example blocks written with ESNext standard and JSX support – build step required.
 
+These blocks are to explore concepts and features available with Gutenberg blocks.
+
 ---
 
 ## Installation
@@ -26,3 +28,4 @@ npm run build
 1. Inner Blocks Example
 2. Card with Image
 3. Card with Color
+4. Repeater
