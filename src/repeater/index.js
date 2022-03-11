@@ -1,14 +1,14 @@
-// Importing code libraries for this block
+// Import WordPress Dependencies
 const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
 const { RichText } = wp.blockEditor;
 const { Button } = wp.components;
 
-// Register the block
-registerBlockType('test-block/custom-repeater-block', {
+registerBlockType('me-blocks/repeater', {
 	title: __('Repeater Block'),
-	icon: 'layout',
-	category: 'layout',
+	icon: 'block-default',
+	category: 'common',
+	description: __('Repeater Block'),
 	keywords: [__('Custom Block')],
 	attributes: {
 		info: {
@@ -27,7 +27,6 @@ registerBlockType('test-block/custom-repeater-block', {
 		},
 	},
 
-	// edit function
 	edit: (props) => {
 		const {
 			attributes: { info = [] },
@@ -131,15 +130,13 @@ registerBlockType('test-block/custom-repeater-block', {
 								},
 							],
 						});
-					}}
-				>
+					}}>
 					Add Item
 				</Button>
 			</div>
 		);
 	},
 
-	// save function
 	save: (props) => {
 		const info = props.attributes.info;
 		const displayInfoList = (value) => {
