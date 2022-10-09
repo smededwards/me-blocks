@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+ .info-wrap {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-direction: row;
+
+  > .info-item {
+    flex: 1;
+  }
+}
+

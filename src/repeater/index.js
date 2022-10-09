@@ -1,3 +1,5 @@
+import './editor.scss';
+
 // Import WordPress Dependencies
 const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
@@ -60,6 +62,7 @@ registerBlockType('me-blocks/repeater', {
 								&times;
 							</Button>
 							<span>Number {infoItem.index}</span>
+							<div className={infoItem.index}>
 							<RichText
 								tagName="h4"
 								className="info-item-title"
@@ -110,6 +113,7 @@ registerBlockType('me-blocks/repeater', {
 									});
 								}}
 							/>
+							</div>
 						</div>
 					);
 				});
@@ -119,6 +123,7 @@ registerBlockType('me-blocks/repeater', {
 			<div className={className}>
 				<div className="info-wrap">{infoList(info)}</div>
 				<Button
+					className="add-item components-button is-primary"
 					onClick={(title) => {
 						setAttributes({
 							info: [
