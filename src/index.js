@@ -7,3 +7,4 @@ import './card-color/';
 import './card-image/';
 import './inner-blocks/';
 import './repeater/';
+import './dynamic/';
